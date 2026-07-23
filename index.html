@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Farhan Almasyah Nuryadi — UI/UX Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="bg-orb orb-1"></div>
+<div class="bg-orb orb-2"></div>
+<div class="bg-orb orb-3"></div>
+
+<header>
+  <div class="logo">
+    <svg viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 55 L20 10 L35 40 L50 5 L65 40 L80 10 L95 55" stroke="#31d0a8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    FAN
+  </div>
+  <nav>
+    <ul id="navList">
+      <li><a href="#beranda" class="nav-link active" data-i18n="nav_home">Beranda</a></li>
+      <li><a href="#tentang" class="nav-link" data-i18n="nav_about">Tentang</a></li>
+      <li><a href="#keahlian" class="nav-link" data-i18n="nav_skills">Keahlian</a></li>
+      <li><a href="#pengalaman" class="nav-link" data-i18n="nav_exp">Pengalaman</a></li>
+      <li><a href="#project" class="nav-link" data-i18n="nav_project">Project</a></li>
+      <li><a href="#kontak" class="nav-link" data-i18n="nav_contact">Kontak</a></li>
+      <li class="lang-switch-li">
+        <button id="langToggle" class="lang-toggle-btn" title="Ganti Bahasa / Switch Language">
+          <span class="lang-opt lang-id active">IND</span>
+          <span class="lang-divider">/</span>
+          <span class="lang-opt lang-en">ENG</span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="beranda">
+  <div class="badge-year pingpong-bounce"><span>2026</span></div>
+  <div class="hero-inner">
+    <svg class="crown float-crown" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 55 L20 10 L35 40 L50 5 L65 40 L80 10 L95 55" stroke="#31d0a8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="5" cy="8" r="4" fill="#31d0a8"/><circle cx="95" cy="8" r="4" fill="#31d0a8"/></svg>
+    <h1 class="hero-title display">
+      <span class="line1 reveal-text" style="--delay: 0.1s;">FARHAN</span>
+      <span class="line1 reveal-text" style="--delay: 0.25s;">ALMASYAH</span>
+      <span class="line2 reveal-text" style="--delay: 0.4s; position:relative; display:inline-block;">
+        NURYADI
+        <svg class="spray-ring pulse-ring" viewBox="0 0 500 160" style="position:absolute; left:-30px; top:-30px; width:110%; opacity:.5;">
+          <ellipse cx="250" cy="80" rx="240" ry="70" stroke="white" stroke-width="1.5" stroke-dasharray="2 6" fill="none"/>
+        </svg>
+      </span>
+    </h1>
+    <p class="hero-sub reveal-text" style="--delay: 0.55s;" data-i18n="hero_sub">Mahasiswa Program Studi Informatika, Universitas Teknokrat Indonesia — fokus pada pengembangan teknologi, pemrograman, dan perancangan pengalaman digital yang efektif dan bermanfaat.</p>
+    <div class="role-tag shimmer-tag reveal-text" style="--delay: 0.7s;">UI / UX &amp; SOFTWARE DEVELOPMENT</div>
+  </div>
+  <div class="scroll-cue" data-i18n="hero_cue"><span class="dot"></span> SCROLL UNTUK LIHAT LEBIH LANJUT</div>
+</section>
+
+<!-- ================= TENTANG ================= -->
+<section id="tentang">
+  <div class="about-grid">
+    <div data-animate="fade-right">
+      <div class="yo brush" style="color:#fff;" data-i18n="about_eyebrow">Yo!</div>
+      <div class="about-text">
+        <p data-i18n="about_p1">Saya adalah <strong>Farhan Almasyah Nuryadi</strong>, mahasiswa Program Studi Informatika, Universitas Teknokrat Indonesia, yang memiliki minat dalam pengembangan teknologi, pemrograman, dan inovasi di bidang teknologi informasi. Saya berkomitmen untuk terus mengembangkan kemampuan teknis maupun soft skill melalui proses pembelajaran, proyek, serta pengalaman organisasi maupun kolaborasi.</p>
+        <p class="indent" data-i18n="about_p2">Selama menempuh pendidikan di Program Studi Informatika, saya mempelajari berbagai bidang, seperti pengembangan perangkat lunak, basis data, algoritma dan struktur data, pemrograman web, kecerdasan buatan, serta analisis dan perancangan sistem. Pengetahuan tersebut menjadi bekal untuk menciptakan solusi digital yang efektif, efisien, dan bermanfaat.</p>
+        <p data-i18n="about_p3">Saya memiliki semangat belajar yang tinggi, mampu bekerja secara individu maupun dalam tim, serta selalu terbuka terhadap tantangan dan perkembangan teknologi terbaru. Bagi saya, setiap proyek merupakan kesempatan untuk meningkatkan kemampuan berpikir kritis, memecahkan masalah, dan menghasilkan karya yang berkualitas.</p>
+        <p data-i18n="about_p4">Melalui portofolio ini, saya menampilkan berbagai proyek, pengalaman, dan keterampilan yang telah saya kembangkan sebagai bentuk komitmen untuk terus bertumbuh sebagai calon profesional di bidang teknologi informasi.</p>
+      </div>
+    </div>
+    <div class="polaroid-wrap" data-animate="fade-left">
+      <div class="polaroid tilt-interactive">
+        <svg class="crown-doodle float-slow" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 55 L20 10 L35 40 L50 5 L65 40 L80 10 L95 55" stroke="#31d0a8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div class="tag-sticker">
+          <div class="top">Hello, my name is</div>
+          <div class="name">Farhan</div>
+        </div>
+        <div class="photo">
+          <img src="Foto Farhan (2).jpeg" alt="Foto Farhan Almasyah Nuryadi" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <span class="initials" style="display:none;">FA</span>
+        </div>
+        <div class="major-badge" data-i18n="about_badge">S1 INFORMATIKA</div>
+        <svg class="flame-tag float-reverse" viewBox="0 0 150 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 120 C10 90 20 60 40 40 C35 60 50 60 55 45 C65 60 70 75 55 100 C75 90 80 70 75 55 C95 75 90 105 65 120 Z" stroke="#ff2e93" stroke-width="3" fill="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= KEAHLIAN ================= -->
+<section id="keahlian">
+  <div class="eyebrow" data-animate="fade-up" data-i18n="skills_eyebrow">// APA YANG SAYA KUASAI</div>
+  <h2 class="sec-title display" data-animate="fade-up" data-i18n="skills_title">Keahlian</h2>
+
+  <div class="skills-top-grid">
+    <!-- LEFT: C++ Code Card -->
+    <div class="card spotlight-card" data-animate="fade-right" style="background: #050505; border: 1px solid #1c1c1a; padding: 24px;">
+      <div class="code-card-header" style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 14px;">
+        <span style="font-family: 'Anton'; font-size: 16px; color: var(--pink); letter-spacing: 2px; display: block;">
+          // ARRAY_OPS.CPP
+        </span>
+        <div class="window-dots" style="display:flex; gap:6px;">
+          <span style="width:10px; height:10px; border-radius:50%; background:#ff5f56; display:inline-block;"></span>
+          <span style="width:10px; height:10px; border-radius:50%; background:#ffbd2e; display:inline-block;"></span>
+          <span style="width:10px; height:10px; border-radius:50%; background:#27c93f; display:inline-block;"></span>
+        </div>
+      </div>
+  <pre style="color: var(--mint); font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6; overflow-x: auto;">
+#include &lt;iostream&gt;
+using namespace std;
+
+void insertElement(int arr[], int&amp; n, int x, int pos) {
+    for (int i = n - 1; i &gt;= pos; i--) {
+        arr[i + 1] = arr[i];
+    }
+    arr[pos] = x;
+    n++;
+}
+
+int main() {
+    int data[10] = {10, 20, 30, 40};
+    int size = 4;
+    
+    // Injecting new logic...
+    insertElement(data, size, 25, 2);
+    
+    cout &lt;&lt; "&gt; SYSTEM READY." &lt;&lt; endl;
+    return 0;
+}
+  </pre>
+</div>
+
+    <div class="card software spotlight-card" data-animate="fade-left">
+      <span class="card-label" style="color:#fff;">The Stack</span>
+      <div class="tech-grid" id="techGrid">
+        <div class="tech-item" style="--brand:#e34f26" data-tilt>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+          <span>HTML5</span>
+        </div>
+        <div class="tech-item" style="--brand:#2965f1" data-tilt>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443L18.59 4.413z"/></svg>
+          <span>CSS3</span>
+        </div>
+        <div class="tech-item" style="--brand:#f7df1e" data-tilt>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.211.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg>
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-item" style="--brand:#00C4CC" data-tilt>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5v-11l5 5.5-5 5.5z"/></svg>
+          <span>Canva</span>
+        </div>
+        <div class="tech-item" style="--brand:#FF2E93" data-tilt>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 13.5l-2.5-2.5L12 15l-2.5-2.5L7 15.5V8h10v7.5z"/></svg>
+          <span>CapCut</span>
+        </div>
+        <div class="tech-item" style="--brand:#00599C" data-tilt>
+          <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6l5.25 3.15L17 12.23l-4-2.37V7z"/></svg>
+          <span>C++</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-list-wrap" data-animate="fade-up">
+    <span class="card-label" style="color:#fff;" data-i18n="skills_cap_label">Kemampuan</span>
+    <div class="skill-bars" id="skillBars">
+      <div class="skill-bar-row" data-percent="85">
+        <div class="sb-top"><span>HTML &amp; CSS</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="80">
+        <div class="sb-top"><span>JavaScript</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="78">
+        <div class="sb-top"><span>UI / UX Design</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="75">
+        <div class="sb-top"><span data-i18n="sk_web">Pemrograman Web</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="70">
+        <div class="sb-top"><span data-i18n="sk_db">Basis Data</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="72">
+        <div class="sb-top"><span data-i18n="sk_algo">Algoritma &amp; Struktur Data</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="65">
+        <div class="sb-top"><span data-i18n="sk_ai">Kecerdasan Buatan</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+      <div class="skill-bar-row" data-percent="80">
+        <div class="sb-top"><span data-i18n="sk_analys">Analisis &amp; Perancangan Sistem</span><span class="sb-percent">0%</span></div>
+        <div class="sb-track"><div class="sb-fill"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PENGALAMAN ================= -->
+<section id="pengalaman">
+  <div class="eyebrow" data-animate="fade-up" data-i18n="exp_eyebrow">// PERJALANAN SAYA</div>
+  <h2 class="sec-title display" data-animate="fade-up" data-i18n="exp_title">Pengalaman</h2>
+
+  <div class="timeline">
+    <div class="tl-item" data-animate="fade-up">
+      <div class="yr" data-i18n="exp1_yr">Di Tahun 2024-2025</div>
+      <div class="role" data-i18n="exp1_role">Bekerja di salah satu Kelurahan diKampung</div>
+      <ul>
+        <li data-i18n="exp1_b1">Menjadi Moderator yang sering membuatkan surat-surat buat masyarakat</li>
+        <li data-i18n="exp1_b2">Mempelajari salah satu aplikasi Microsoft Word</li>
+      </ul>
+    </div>
+    <div class="tl-item" data-animate="fade-up" style="--delay: 0.15s;">
+      <div class="yr" data-i18n="exp2_yr">Di Tahun 2025</div>
+      <div class="role" data-i18n="exp2_role">Himpunan Mahasiswa Informatika</div>
+      <ul>
+        <li data-i18n="exp2_b1">Sedang menjadi Anggota Pasif di HIMA</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECT ================= -->
+<section id="project">
+  <div class="eyebrow" data-animate="fade-up" data-i18n="proj_eyebrow">// KARYA TERPILIH</div>
+  <h2 class="sec-title display" data-animate="fade-up" data-i18n="proj_title">Project</h2>
+
+  <div class="project-grid">
+    <div class="p-card p-card-snake spotlight-card" data-animate="scale-up">
+      <div class="snake-game-wrapper">
+        <div id="snake-game-container"></div>
+      </div>
+      <div class="p-body">
+        <span class="p-tag" data-i18n="proj1_tag">STRUKTUR DATA</span>
+        <h3>Snake Game</h3>
+        <p data-i18n="proj1_desc">Game klasik Snake yang dibuat dengan JavaScript — mainkan langsung! Kendalikan ular dengan WASD / Arrow Keys. Setiap makanan menambah skor 10 poin. Game over jika menabrak dinding atau tubuh sendiri.</p>
+        <div class="p-card-action" data-i18n="proj_card_action_game">Mainkan Game 🎮</div>
+      </div>
+    </div>
+    <div class="p-card spotlight-card" data-animate="scale-up" style="--delay: 0.15s;">
+      <div class="p-thumb" style="overflow:hidden;">
+        <span class="p-num">02</span>
+        <img src="projek 2.png" alt="Screenshot Web Portofolio" class="p-img-zoom" style="width:100%; height:100%; object-fit:cover; position:absolute; inset:0;">
+      </div>
+      <div class="p-body">
+        <span class="p-tag">HTML.CSS.JS</span>
+        <h3 data-i18n="proj2_title">Web Portofolio Pribadi</h3>
+        <p data-i18n="proj2_desc">Website portofolio yang sedang kamu lihat sekarang, dibangun dengan HTML, CSS, JavaScript</p>
+        <div class="p-card-action" data-i18n="proj_card_action">Lihat Detail ↗</div>
+      </div>
+    </div>
+    <div class="p-card spotlight-card" data-animate="scale-up" style="--delay: 0.3s;">
+      <div class="p-thumb" style="overflow:hidden;">
+        <span class="p-num">03</span>
+        <img src="Desain%20Projek.jpeg" alt="Desain Packaging" class="p-img-zoom" style="width:100%; height:100%; object-fit:cover; position:absolute; inset:0;">
+      </div>
+      <div class="p-body">
+        <span class="p-tag" data-i18n="proj3_tag">DESAIN GRAFIS</span>
+        <h3 data-i18n="proj3_title">Packaging</h3>
+        <p data-i18n="proj3_desc">Desain kemasan makanan Roti Bakar, dibuat sebagai projek akhir mata kuliah Desain Grafis</p>
+        <div class="p-card-action" data-i18n="proj_card_action">Lihat Detail ↗</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECT MODAL LIGHTBOX ================= -->
+<div id="projectModal" class="project-modal" aria-hidden="true">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-content spotlight-card">
+    <button class="modal-close" id="modalClose" aria-label="Close Modal">&times;</button>
+    <div class="modal-media" id="modalMedia">
+      <img id="modalImg" src="" alt="Project Preview">
+    </div>
+    <div class="modal-info">
+      <span class="p-tag" id="modalTag"></span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- ================= KONTAK ================= -->
+<section id="kontak">
+  <div class="eyebrow" data-animate="fade-up" style="justify-content:center; display:flex;" data-i18n="contact_eyebrow">// AYO TERHUBUNG</div>
+  <h2 class="contact-title display" data-animate="fade-up" data-i18n="contact_title">Mari<br>Berkolaborasi</h2>
+  <p class="contact-sub" data-animate="fade-up" data-i18n="contact_sub">Terbuka untuk diskusi proyek, magang, atau sekadar bertukar ide seputar teknologi dan desain. Hubungi saya melalui salah satu tautan berikut.</p>
+  <div class="contact-links" data-animate="scale-up">
+    <a href="mailto:farhanalmasyahnuryadi@email.com" class="btn-glow">Email</a>
+    <a href="https://www.linkedin.com/in/farhan-almasyah-nuryadi-undefined-33b5b7424?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="btn-glow">LinkedIn</a>
+    <a href="https://www.instagram.com/farhan_cypp?igsh=MXUxbHVnbG13emt2dQ%3D%3D&utm_source=qr" class="btn-glow">Instagram</a>
+    <a href="https://github.com/farhanalmasyahnuryadi-arch" class="btn-glow">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Farhan Almasyah Nuryadi</span>
+  <span data-i18n="footer_built">Dibuat dengan HTML, CSS &amp; JS</span>
+</footer>
+
+<script src="script.js"></script>
+<script src="snake-game.js"></script>
+</body>
+</html>
